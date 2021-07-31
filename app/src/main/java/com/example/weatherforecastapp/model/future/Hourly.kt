@@ -1,0 +1,33 @@
+package com.example.weatherforecastapp.model.future
+
+data class Hourly(
+    val chanceoffog: Int,
+    val chanceoffrost: Int,
+    val chanceofhightemp: Int,
+    val chanceofovercast: Int,
+    val chanceofrain: Int,
+    val chanceofremdry: Int,
+    val chanceofsnow: Int,
+    val chanceofsunshine: Int,
+    val chanceofthunder: Int,
+    val chanceofwindy: Int,
+    val cloudcover: Int,
+    val dewpoint: Int,
+    val feelslike: Int,
+    val heatindex: Int,
+    val humidity: Int,
+    val precip: Int,
+    val pressure: Int,
+    val temperature: Int,
+    val time: String,
+    val uv_index: Int,
+    val visibility: Int,
+    val weather_code: Int,
+    val weather_descriptions: List<String>,
+    val weather_icons: List<String>,
+    val wind_degree: Int,
+    val wind_dir: String,
+    val wind_speed: Int,
+    val windchill: Int,
+    val windgust: Int
+)

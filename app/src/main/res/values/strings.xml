@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">WeatherForecastApp</string>
+
+    <!-- 只有系統可見 -->
+    <string-array name="unitSystemValues">
+        <item>METRIC</item>
+        <item>IMPERIAL</item>
+    </string-array>
+
+    <!-- 使用者可見, 可受翻譯改變 -->
+    <string-array name="unitSystemEntries">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+</resources>
